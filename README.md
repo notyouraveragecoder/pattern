@@ -20,7 +20,7 @@ It is well documented, thoroughly tested with 350+ unit tests and comes bundled 
 Example
 -------
 
-This example trains a classifier on adjectives mined from Twitter using Python 3. First, tweets that contain hashtag #win or #fail are collected. For example: *"$20 tip off a sweet little old lady today #win"*. The word part-of-speech tags are then parsed, keeping only adjectives. Each tweet is transformed to a vector, a dictionary of adjective → count items, labeled `WIN` or `FAIL`. The classifier uses the vectors to learn which other tweets look more like `WIN` or more like `FAIL`.
+This example trains a classifier on adjectives mined from Twitter using Python 3. First, tweets that contain hashtag #win or #fail are collected. For example: *"$20 tip off a sweet little old lady today #win"*. The word part-of-speech tags are then parsed, keeping only adjectives. Each tweet is transformed into a vector, a dictionary of adjective → count items, labeled `WIN` or `FAIL`. The classifier uses the vectors to learn which other tweets look more like `WIN` or more like `FAIL`.
 
 ```python
 from pattern.web import Twitter
